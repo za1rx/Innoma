@@ -1,0 +1,63 @@
+.start {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/uae-4-2048x1367\ 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5vh;
+
+  .start__title {
+    font-size: 43px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    span {
+      background-color: aquamarine;
+    }
+  }
+
+  .start__subtitle {
+    font-size: 32px;
+    color: #fff;
+  }
+}
+
+.start__subtitle__phone {
+  display: none;
+
+  font-size: 18px;
+  color: #fff;
+
+  span {
+    background-color: #fff;
+    color: #07af91;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .start {
+    align-items: center;
+
+    .start__title {
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+    }
+
+    .start__subtitle{
+        display: none;
+    }
+    .start__subtitle__phone{
+        display: inline-block;
+    }
+  }
+}

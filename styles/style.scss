@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import 'header',
+        'start',
+        'services',
+        'for-who',
+        'startup',
+        'markets',
+        'about-us',
+        'program',
+        'result',
+        'price',
+        'experts',
+        'questions';
+
+*{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.container{
+    padding: 0 15vw;
+    overflow: hidden;
+}
+
+main{
+    margin-top: -50px;
+
+    section:not(:first-child){
+        margin-top: 100px;
+    }
+}
+
+.button{
+    background: linear-gradient(to right, #61B5E4, #016CA8);
+    padding: 16px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.title{
+    font-size: 36px;
+    color: #1178B2;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
+.green-btn{
+    background-color: #07AF91;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        padding: 0 2vw;
+        padding-top: 5vh;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+}

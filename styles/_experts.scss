@@ -1,0 +1,35 @@
+.swiper {
+  width: 80vw;
+  height: 500px;
+}
+
+.slide2 {
+  background-color: blue;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img{
+        border-radius: 50%;
+        width: 12vw;
+    }
+
+    p{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1000px){
+  .swiper{
+    width: 100%;
+  }
+
+  .swiper-slide img{
+    width: 25vw;
+  }
+}
