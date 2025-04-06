@@ -58,6 +58,15 @@
     }
     .start__subtitle__phone{
         display: inline-block;
+        text-align: center;
+        line-height: 30px;
     }
+  }
+}
+
+@media(max-width: 500px){
+  .start .start__title{
+    font-size: 26px;
+    line-height: 38px;
   }
 }
