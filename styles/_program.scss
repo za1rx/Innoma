@@ -35,7 +35,8 @@
 
 .accordion__item{
     border-radius: 30px;
-    border: 1px solid #333;
+    // border: 1px solid #333;
+    box-shadow: 0 0 50px #33333330;
     padding: 30px;
 
     .accordion__header{

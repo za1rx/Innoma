@@ -35,9 +35,18 @@
       background-color: #fff;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
       padding: 40px;
       border-radius: 30px;
       box-shadow: 0 0 50px 1px #333333a2;
+
+      .footer__btn{
+        align-self: flex-start;
+        background-color: #07AF91;
+        padding: 3vh 3vw;
+        border-radius: 12px;
+      }
     }
 
     .input {

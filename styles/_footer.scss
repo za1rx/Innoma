@@ -1,0 +1,46 @@
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/uae-4-2048x1367\ 2.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-top: 4vh solid #fff;
+
+  a {
+    color: #fff;
+  }
+
+  .footer__logo{
+    width: 25%;
+    margin: 5vh 0;
+  }
+
+  .footer__nav{
+    width: 60%;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+      }
+  } 
+
+  .footer__info{
+    width: 15%;
+    p{
+        font-size: 16px;
+        margin-bottom: 2vh;
+    }
+  }
+}
+
+@media(max-width: 870px){
+    .footer__nav{
+        display: none;
+    }
+
+    footer .footer__info{
+        width: 40%;
+    }
+}

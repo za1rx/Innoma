@@ -12,7 +12,8 @@
         'result',
         'price',
         'experts',
-        'questions';
+        'questions',
+        'footer';
 
 *{
     font-family: 'Montserrat', 'sans-serif';
@@ -49,6 +50,14 @@ main{
     color: #fff;
 }
 
+.header__logo, .footer__logo a{
+    font-weight: 600;
+
+    span{
+        color: #00B1E9;
+    }
+}
+
 @media (max-width: 1000px) {
     .container{
         padding: 0 2vw;
@@ -59,3 +68,4 @@ main{
         font-size: 32px;
     }
 }
+
