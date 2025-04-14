@@ -253,10 +253,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 10vh 0;
+  padding: 10vh 5vh !important;
   margin-top: 10vh;
-}
-.startup .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +279,7 @@
 
 @media (max-width: 1000px) {
   .startup h2 {
-    font-size: 28px;
+    font-size: 23px;
   }
   .startup p {
     font-size: 16px;
@@ -776,7 +774,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  border-top: 4vh solid #fff;
+  margin-top: 4vh;
 }
 footer a {
   color: #fff;
@@ -813,6 +811,10 @@ footer .footer__info p {
   font-family: "Montserrat", "sans-serif";
 }
 
+body {
+  transition: 0.5s ease;
+}
+
 .container {
   padding: 0 15vw;
 }
@@ -822,6 +824,33 @@ main {
 }
 main section:not(:first-child) {
   margin-top: 100px;
+}
+
+.container--dark-theme {
+  background-color: #000;
+}
+.container--dark-theme a, .container--dark-theme p, .container--dark-theme h3 {
+  color: #fff;
+}
+.container--dark-theme .markets__content .info ul li p {
+  color: #101010;
+}
+.container--dark-theme .price__item {
+  color: #fff;
+}
+.container--dark-theme h2.title {
+  color: #00B1E9;
+}
+.container--dark-theme .questions h2.title {
+  color: #fff;
+}
+
+.red {
+  background-color: red;
+}
+
+.gradient--dark-theme {
+  background-image: linear-gradient(20deg, rgb(2, 0, 32) 40%, rgb(0, 0, 59) 93%);
 }
 
 .button {
