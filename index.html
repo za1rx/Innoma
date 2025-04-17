@@ -17,26 +17,33 @@
 
       <nav class="header__nav">
         <ul>
-          <li><a href="">Кто мы?</a></li>
-          <li><a href="">Услуги</a></li>
-          <li><a href="">Акселератор</a></li>
-          <li><a href="">Новости</a></li>
+          <li>
+            <a data-translate="header__who-we-nav-link" href="">Кто мы?</a>
+          </li>
+          <li>
+            <a data-translate="header__services-nav-link" href="">Услуги</a>
+          </li>
+          <li>
+            <a data-translate="header__accelerator-nav-link" href=""
+              >Акселератор</a
+            >
+          </li>
+          <li><a data-translate="header__news-nav-link" href="">Новости</a></li>
         </ul>
       </nav>
 
-      
-
       <div class="header__buttons">
-        <button class="header__button">Войти</button>
+        <button data-translate="header__button-log-in" class="header__button">Войти</button>
 
-        <input type="checkbox" id="change-theme">
-
+        <input type="checkbox" id="change-theme" />
+        <select name="" id="select-lang">
+          <option value="ru">ru</option>
+          <option value="en">en</option>
+        </select>
         <button class="btn-open">
           <img src="icons/align-center.svg" alt="" />
         </button>
       </div>
-
-      
 
       <div class="mobile-menu">
         <button class="btn-close">
@@ -45,10 +52,10 @@
 
         <nav class="mobile-menu__nav">
           <ul>
-            <li><a href="">Кто мы?</a></li>
-            <li><a href="">Услуги</a></li>
-            <li><a href="">Акселератор</a></li>
-            <li><a href="">Новости</a></li>
+            <li><a data-translate="header__who-we-nav-link" href="">Кто мы?</a></li>
+            <li><a data-translate="header__services-nav-link" href="">Услуги</a></li>
+            <li><a data-translate="header__accelerator-nav-link" href="">Акселератор</a></li>
+            <li><a data-translate="header__news-nav-link" href="">Новости</a></li>
           </ul>
         </nav>
       </div>
@@ -56,28 +63,28 @@
 
     <main class="main">
       <section class="start container">
-        <h1 class="start__title">
+        <h1 data-translate="start__title" class="start__title">
           Запустите <br />
           <span>технологический IT-бизнес</span> <br />
           на международных рынках
         </h1>
 
-        <p class="start__subtitle">Открыт набор заявок на акселератор</p>
+        <p data-translate="start__subtitle" class="start__subtitle">Открыт набор заявок на акселератор</p>
 
-        <p class="start__subtitle__phone">
+        <p data-translate="start__subtitle__to_phone" class="start__subtitle__phone">
           Старт ближайшего акселератора <span>15.12.2022</span>
         </p>
 
-        <button class="button start__button">Подать заявку</button>
+        <button data-translate="start__button" class="button start__button">Подать заявку</button>
       </section>
 
       <section class="services container">
-        <h2 class="title services__title">Наши услуги</h2>
+        <h2 data-translate="services__title" class="title services__title">Наши услуги</h2>
 
         <div class="services__wrapper">
           <div class="services__content">
-            <h3>Аналитические исследования</h3>
-            <p>
+            <h3 data-translate="services__first-block-title">Аналитические исследования</h3>
+            <p data-translate="services__first-block-text">
               Одним из наших ключевых направлений является анализ
               технологических трендов на международных рынках. Мы проводим
               анализ на основе публичных исследований McKinsey, BCG, PWC,
@@ -86,15 +93,15 @@
               источников патенты, медиа, научные публикации
             </p>
 
-            <button class="green-btn">Узнать подробнее</button>
+            <button data-translate="services__first-block-button" class="green-btn">Узнать подробнее</button>
           </div>
           <img src="images/services-image_1.png" alt="" />
         </div>
 
         <div class="services__wrapper">
           <div class="services__content">
-            <h3>Аналитические исследования</h3>
-            <p>
+            <h3 data-translate="services__second-block-title">Аналитические исследования</h3>
+            <p data-translate="services__second-block-text">
               Одним из наших ключевых направлений является анализ
               технологических трендов на международных рынках. Мы проводим
               анализ на основе публичных исследований McKinsey, BCG, PWC,
@@ -103,36 +110,36 @@
               источников патенты, медиа, научные публикации
             </p>
 
-            <button class="green-btn">Узнать подробнее</button>
+            <button data-translate="services__second-block-button" class="green-btn">Узнать подробнее</button>
           </div>
           <img src="images/services-image_2.png" alt="" />
         </div>
       </section>
 
       <section class="for-who container">
-        <h2 class="title for-who__title">Для кого мы?</h2>
+        <h2 data-translate="for-who__title" class="title for-who__title">Для кого мы?</h2>
 
         <ul class="for-who__list">
           <li>
             <h2 class="list__num">01</h2>
-            <h3 class="list__title">IT проекты на стадии идеи</h3>
-            <p class="list__text">
+            <h3 data-translate="for-who__first-card-title" class="list__title">IT проекты на стадии идеи</h3>
+            <p data-translate="for-who__first-card-text" class="list__text">
               Для стартапов, которые планируют привлечь международные
               инвестиции, протестировать спрос и запустить продукт
             </p>
           </li>
           <li>
             <h2 class="list__num">02</h2>
-            <h3 class="list__title">Инновационный бизнес</h3>
-            <p class="list__text">
+            <h3 data-translate="for-who__second-card-title" class="list__title">Инновационный бизнес</h3>
+            <p data-translate="for-who__second-card-text" class="list__text">
               Для уже работающего технологического бизнес, позволим найти новые
               международне рынки сбыта, масштабировать бизнес
             </p>
           </li>
           <li>
             <h2 class="list__num">03</h2>
-            <h3 class="list__title">Корпорации</h3>
-            <p class="list__text">
+            <h3 data-translate="for-who__third-card-title" class="list__title">Корпорации</h3>
+            <p data-translate="for-who__third-card-text" class="list__text">
               Для уже работающего технологического бизнес, позволим найти новые
               международне рынки сбыта, масштабировать бизнес
             </p>
@@ -141,53 +148,53 @@
       </section>
 
       <section class="startup container">
-          <h2 class="startup__title">
-            Научитесь исследовать иностранные рынки <br />
-            и откройте новые возможности для своего бизнеса
-          </h2>
+        <h2 data-translate="startup__title" class="startup__title">
+          Научитесь исследовать иностранные рынки <br />
+          и откройте новые возможности для своего бизнеса
+        </h2>
 
-          <p class="startup__subtitle">
-            Наша команда поможет вам изучить рынки Ближнего Востока, Азии,
-            Латинской Америки и Африки
-          </p>
+        <p data-translate="startup__subtitle" class="startup__subtitle">
+          Наша команда поможет вам изучить рынки Ближнего Востока, Азии,
+          Латинской Америки и Африки
+        </p>
 
-          <button class="button">Получить консультацию</button>
+        <button data-translate="startup__button" class="button">Получить консультацию</button>
       </section>
 
       <section class="markets container">
-        <h2 class="title markets__title">С какими рынками мы работаем?</h2>
+        <h2 data-translate="markets__title" class="title markets__title">С какими рынками мы работаем?</h2>
 
         <nav class="markets__menu">
           <ul class="markets__list">
-            <li>Ближний восток</li>
-            <li>Азия</li>
-            <li>Америка</li>
-            <li>Африка</li>
+            <li data-translate="markets__middle-east-link">Ближний восток</li>
+            <li data-translate="markets__asia-link">Азия</li>
+            <li data-translate="markets__amerika-link">Америка</li>
+            <li data-translate="markets__afrika-link">Африка</li>
           </ul>
         </nav>
 
         <div class="markets__content markets__content--active">
           <img class="market__world" src="images/markets__world.png" alt="" />
           <div class="market">
-            <h3>
+            <h3 data-translate="markets__market-title">
               Чем интересен <br />
               <span>Рынок MENA:</span>
             </h3>
 
-            <p>
+            <p data-translate="markets__market-text">
               ОАЭ, Саудовская Аравия,<br />
               Израиль, Оман, Бахрейн, Катар,<br />
               Тунис,Йемен, Египет, Алжир
             </p>
 
-            <button class="button">Выйти на рынок</button>
+            <button data-translate="" class="button">Выйти на рынок</button>
 
             <div class="market__user">
               <img src="images/user1.png" alt="" />
 
               <h4>
-                <b>Фатима</b> <br />
-                <p>Менеджер по MENA</p>
+                <b data-translate="markets__market-name">Фатима</b> <br />
+                <p data-translate="markets__market-stage">Менеджер по MENA</p>
               </h4>
             </div>
           </div>
@@ -195,15 +202,15 @@
             <ul>
               <li>
                 <h4>>5,5 Млрд</h4>
-                <p>Инвестиции pre-seed, seed</p>
+                <p data-translate="markets__first-card-text">Инвестиции pre-seed, seed</p>
               </li>
               <li>
                 <h4>>300</h4>
-                <p>Акселераторов, инкубаторов</p>
+                <p data-translate="markets__second-card-text">Акселераторов, инкубаторов</p>
               </li>
               <li>
                 <h4>73</h4>
-                <p>Венчурных фонда</p>
+                <p data-translate="markets__third-card-text">Венчурных фонда</p>
               </li>
               <li>
                 <a href="">
@@ -217,9 +224,9 @@
       </section>
 
       <section class="about-us container">
-        <h2 class="title">Об акселераторе IT бизнеса</h2>
+        <h2 data-translate="about-us__title" class="title">Об акселераторе IT бизнеса</h2>
 
-        <p class="about-us__sub-title">
+        <p data-translate="about-us__subtitle" class="about-us__sub-title">
           Программа акселератора расчитана на 8 недель интенсивного онлайн курса
           с вебинарами приглашенных экспертов по международным рынкам, разборами
           ваших идей и проектов
@@ -228,30 +235,30 @@
         <ul class="about-us__items">
           <li>
             <h3>3</h3>
-            <p class="sub-img">Месяца обучения</p>
+            <p data-translate="about-us__first-card-title" class="sub-img">Месяца обучения</p>
           </li>
           <li>
             <h3>
               <img src="icons/world.svg" alt="" />
             </h3>
-            <p class="sub-img">Приглашенные эксперты</p>
+            <p data-translate="about-us__second-card-title" class="sub-img">Приглашенные эксперты</p>
           </li>
           <li>
             <h3>
               <img src="icons/human.svg" alt="" />
             </h3>
-            <p class="sub-img">Персональный менеджер</p>
+            <p data-translate="about-us__third-card-title" class="sub-img">Персональный менеджер</p>
           </li>
         </ul>
       </section>
 
       <section class="program container">
-        <h2 class="title program__title">Программа акселератора</h2>
+        <h2 data-translate="program__title" class="title program__title">Программа акселератора</h2>
 
         <ul class="program__accordion accordion">
           <li data-item="1" class="accordion__item 1">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-1-title" class="accordion__title">
                 <span>Модуль 1</span> Тенденции и тренды современного мира
               </h3>
               <button class="accordion__arrow-btn">
@@ -262,26 +269,25 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
@@ -289,7 +295,7 @@
 
           <li class="accordion__item 2">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-2-title" class="accordion__title">
                 <span>Модуль 2</span> Стартап подход к созданию международного
                 IT продукта
               </h3>
@@ -301,26 +307,25 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
@@ -328,7 +333,7 @@
 
           <li class="accordion__item 3">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-3-title" class="accordion__title">
                 <span>Модуль 3</span> Бизнес моделирование и поиск Product
                 Market Fit
               </h3>
@@ -340,26 +345,25 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
@@ -367,7 +371,7 @@
 
           <li class="accordion__item 4">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-4-title" class="accordion__title">
                 <span>Модуль 4</span> Определение рынка, поиск и исследование
                 Целевой аудитории
               </h3>
@@ -379,26 +383,25 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
@@ -406,7 +409,7 @@
 
           <li class="accordion__item 5">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-5-title" class="accordion__title">
                 <span>Модуль 5</span> Что такое MVP и почему это важно
               </h3>
               <button class="accordion__arrow-btn">
@@ -417,26 +420,25 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
@@ -444,7 +446,7 @@
 
           <li class="accordion__item 6">
             <div class="accordion__header">
-              <h3 class="accordion__title">
+              <h3 data-translate="program__accordion-item-6-title" class="accordion__title">
                 <span>Модуль 6</span> Тенденции и тренды современного мира
               </h3>
               <button class="accordion__arrow-btn">
@@ -455,82 +457,81 @@
             <div class="accordion__content">
               <ul class="accordion__steps">
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-first-item">
                     Тема 1. Куда движутся IT тренды? Аналитика Gartner, разбор
                     отчетов консалтинговых компаний
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-second-item">
                     Тема 2. Рынки Ближнего Востока, Азии, Латинской АмерикиТема
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p data-translate="program__accordion-item-1-third-item">
                     3. Что такое внутренние и внешние инновации? Как искать
                     инновационные идеи?
                   </p>
                 </li>
                 <li>
-                  <a href=""
-                    >9 видео роликов, вебинар с приглашенным экспертом</a
-                  >
+                  <a data-translate="program__accordion-item-1-four-item" href=""
+                    >9 видео роликов, вебинар с приглашенным экспертом</a>
                 </li>
               </ul>
             </div>
           </li>
         </ul>
 
-        <button class="button">Получить полную программу</button>
+        <button data-translate="program__button" class="button">Получить полную программу</button>
       </section>
 
       <section class="result container">
-        <h2 class="title result__title">Что вы получите в результате?</h2>
+        <h2 data-translate="result__title" class="title result__title">Что вы получите в результате?</h2>
 
         <ul class="result__list">
           <li>
             <span class="result__num">01</span>
-            <h3 class="result__title">Документы по продукту</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-1-title" class="result__title">Документы по продукту</h3>
+            <p data-translate="result__item-1-text" class="result__text">
               Бизнес план, отчет по анализу рынка, маркетинговый план, unit
               экономика, список гипотез, проект MVP
             </p>
           </li>
           <li>
             <span class="result__num">02</span>
-            <h3 class="result__title">Обратная связь от рынка</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-2-title" class="result__title">Обратная связь от рынка</h3>
+            <p data-translate="result__item-2-text" class="result__text">
               Проведение исследования целевой аудитории позволит сформировать
               Product market fit
             </p>
           </li>
           <li>
             <span class="result__num">03</span>
-            <h3 class="result__title">Продвижение продукта</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-3-title" class="result__title">Продвижение продукта</h3>
+            <p data-translate="result__item-3-text" class="result__text">
               Продвижение продукта через аналитические системы партнеров
             </p>
           </li>
           <li>
             <span class="result__num">04</span>
-            <h3 class="result__title">Подписка на отчеты</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-4-title" class="result__title">Подписка на отчеты</h3>
+            <p data-translate="result__item-4-text" class="result__text">
               Подписка на аналитические отчеты по международным рынкам
               высокотехнологичных сфер
             </p>
           </li>
           <li>
             <span class="result__num">05</span>
-            <h3 class="result__title">Подписка на отчеты</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-5-title" class="result__title">Подписка на отчеты</h3>
+            <p data-translate="result__item-5-text" class="result__text">
               Подписка на аналитические отчеты по международным рынкам
               высокотехнологичных сфер
             </p>
           </li>
           <li>
             <span class="result__num">06</span>
-            <h3 class="result__title">Подписка на отчеты</h3>
-            <p class="result__text">
+            <h3 data-translate="result__item-6-title" class="result__title">Подписка на отчеты</h3>
+            <p data-translate="result__item-6-text" class="result__text">
               Подписка на аналитические отчеты по международным рынкам
               высокотехнологичных сфер
             </p>
@@ -539,99 +540,99 @@
       </section>
 
       <section class="price container">
-        <h2 class="title">Стоимость</h2>
+        <h2 data-translate="price__title" class="title">Стоимость</h2>
 
         <ul class="price__items">
           <li class="price__item">
             <div class="price__header">
               <img src="icons/pdf-icon.svg" alt="" />
-              <h3><b>Анализ международных рынков</b></h3>
+              <h3><b data-translate="price__item-1-title">Анализ международных рынков</b></h3>
             </div>
-            <h4 class="str-top lh">Что входит в отчет?</h4>
+            <h4 data-translate="price__item-1-subtitle" class="str-top lh">Что входит в отчет?</h4>
             <ul class="price__list">
-              <li>1. Анализ конкурентов</li>
-              <li>2. Анализ инвесторов</li>
-              <li>3. Размеры рынка (TAM,SAM,SOM)</li>
-              <li>4. Анализ СМИ</li>
-              <li>5. Анализ запрос в сети интернет</li>
+              <li data-translate="price__item-1-list-item-1">1. Анализ конкурентов</li>
+              <li data-translate="price__item-1-list-item-2">2. Анализ инвесторов</li>
+              <li data-translate="price__item-1-list-item-3">3. Размеры рынка (TAM,SAM,SOM)</li>
+              <li data-translate="price__item-1-list-item-4">4. Анализ СМИ</li>
+              <li data-translate="price__item-1-list-item-5">5. Анализ запрос в сети интернет</li>
             </ul>
             <ul>
               <li class="str-top lh">
-                <h5>Готовность</h5>
-                <p>7 раб. дней</p>
+                <h5 data-translate="price__item-1-ready">Готовность</h5>
+                <p data-translate="price__item-1-ready-value">7 раб. дней</p>
               </li>
               <li class="str-top lh">
-                <h5>Язык</h5>
-                <p>рус. / англ.</p>
+                <h5 data-translate="price__item-1-lang">Язык</h5>
+                <p data-translate="price__item-1-lang-value">рус. / англ.</p>
               </li>
               <li class="str-top lh">
-                <h5>Стоимость</h5>
-                <p>$1 000</p>
+                <h5 data-translate="price__item-1-price">Стоимость</h5>
+                <p data-translate="price__item-1-price-value">$1 000</p>
               </li>
             </ul>
 
-            <button class="button">Оставить заявку</button>
+            <button data-translate="price__item-1-button" class="button">Оставить заявку</button>
           </li>
           <li class="price__item">
             <div class="price__header">
               <img src="icons/settings-icon.svg" alt="" />
-              <h3><b>Упаковка стартапа под локальные рынки</b></h3>
+              <h3><b data-translate="price__item-2-title">Упаковка стартапа под локальные рынки</b></h3>
             </div>
-            <h4 class="str-top lh">Что входит в услугу?</h4>
+            <h4 data-translate="price__item-2-subtitle" class="str-top lh">Что входит в услугу?</h4>
             <ul class="price__list">
-              <li>1. Анализ локальных рынков</li>
-              <li>2. Бизнес план</li>
-              <li>3. Питч презентация</li>
-              <li>4. Финансовый план</li>
-              <li>5. Расчет юнит экономики</li>
-              <li>6. Проведение каст дева</li>
+              <li data-translate="price__item-2-list-item-1">1. Анализ локальных рынков</li>
+              <li data-translate="price__item-2-list-item-2">2. Бизнес план</li>
+              <li data-translate="price__item-2-list-item-3">3. Питч презентация</li>
+              <li data-translate="price__item-2-list-item-4">4. Финансовый план</li>
+              <li data-translate="price__item-2-list-item-5">5. Расчет юнит экономики</li>
+              <li data-translate="price__item-2-list-item-6">6. Проведение каст дева</li>
             </ul>
             <ul>
               <li class="str-top lh">
-                <h5>Готовность</h5>
-                <p>10 раб. дней</p>
+                <h5 data-translate="price__item-2-ready">Готовность</h5>
+                <p data-translate="price__item-2-ready-value">10 раб. дней</p>
               </li>
               <li class="str-top lh">
-                <h5>Язык</h5>
-                <p>рус. / англ.</p>
+                <h5 data-translate="price__item-2-lang">Язык</h5>
+                <p data-translate="price__item-2-lang-value">рус. / англ.</p>
               </li>
               <li class="str-top lh">
-                <h5>Стоимость</h5>
-                <p>$1 200</p>
+                <h5 data-translate="price__item-2-price">Стоимость</h5>
+                <p data-translate="price__item-2-price-value">$1 200</p>
               </li>
             </ul>
 
-            <button class="button">Оставить заявку</button>
+            <button data-translate="price__item-2-button" class="button">Оставить заявку</button>
           </li>
           <li class="price__item">
             <div class="price__header">
               <img src="icons/rocket-icon.svg" alt="" />
-              <h3><b>Акселератор вашего бизнеса</b></h3>
+              <h3><b data-translate="price__item-3-title">Акселератор вашего бизнеса</b></h3>
             </div>
-            <h4 class="str-top lh">Что входит в акселератор?</h4>
+            <h4 data-translate="price__item-3-subtitle" class="str-top lh">Что входит в акселератор?</h4>
             <ul class="price__list">
-              <li>1. Онлайн доступ к курсам</li>
-              <li>2. Документы для бизнеса</li>
-              <li>3. Питч презентация</li>
-              <li>4. Демо день</li>
-              <li>5. Провдижение по результатам</li>
+              <li data-translate="price__item-3-list-item-1">1. Онлайн доступ к курсам</li>
+              <li data-translate="price__item-3-list-item-2">2. Документы для бизнеса</li>
+              <li data-translate="price__item-3-list-item-3">3. Питч презентация</li>
+              <li data-translate="price__item-3-list-item-4">4. Демо день</li>
+              <li data-translate="price__item-3-list-item-5">5. Провдижение по результатам</li>
             </ul>
             <ul>
               <li class="str-top lh">
-                <h5>Готовность</h5>
-                <p>7 раб. дней</p>
+                <h5 data-translate="price__item-3-ready">Готовность</h5>
+                <p data-translate="price__item-3-ready-value">7 раб. дней</p>
               </li>
               <li class="str-top lh">
-                <h5>Язык</h5>
-                <p>рус. / англ.</p>
+                <h5 data-translate="price__item-3-lang">Язык</h5>
+                <p data-translate="price__item-3-lang-value">рус. / англ.</p>
               </li>
               <li class="str-top lh">
-                <h5>Стоимость</h5>
-                <p>$1 000</p>
+                <h5 data-translate="price__item-3-price">Стоимость</h5>
+                <p data-translate="price__item-3-price-value">$1 000</p>
               </li>
             </ul>
 
-            <button class="button">Оставить заявку</button>
+            <button data-translate="price__item-3-button" class="button">Оставить заявку</button>
           </li>
         </ul>
       </section>
@@ -687,49 +688,49 @@
       </section>
 
       <section class="questions container">
-          <div class="questions__content">
-            <div class="questions__top">
-              <h2 class="title">Остались вопросы?</h2>
-              <p>Оставьте заявку и наша команда свяжется с вами</p>
-            </div>
+        <div class="questions__content">
+          <div class="questions__top">
+            <h2 class="title">Остались вопросы?</h2>
+            <p>Оставьте заявку и наша команда свяжется с вами</p>
+          </div>
 
-            <div class="questions__bottom">
-              <p>Или напишите нам:</p>
-              <ul class="questions__social-links">
-                <li>
-                  <div class="questions__img">
-                    <img src="icons/telegram-icon.png" alt="" />
-                  </div>
-                  <p>Telegram</p>
+          <div class="questions__bottom">
+            <p>Или напишите нам:</p>
+            <ul class="questions__social-links">
+              <li>
+                <div class="questions__img">
+                  <img src="icons/telegram-icon.png" alt="" />
+                </div>
+                <p>Telegram</p>
+              </li>
+              <li>
+                <div class="questions__img">
+                  <img src="icons/whatssap-icon.png" alt="" />
+                </div>
+                <p>Whatsapp</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="questions__form">
+          <form action="">
+            <input type="text" name="" id="" placeholder="Имя" />
+            <input type="email" name="" id="" placeholder="Почта" />
+            <div class="select">
+              <input class="input" type="number" placeholder="Выберите номер" />
+              <ul class="items">
+                <li data-item="971">
+                  (971)
+                  <img src="images/United-Arab-Emirates.png" alt="" />
                 </li>
-                <li>
-                  <div class="questions__img">
-                    <img src="icons/whatssap-icon.png" alt="" />
-                  </div>
-                  <p>Whatsapp</p>
-                </li>
+                <li data-item="222">222</li>
+                <li data-item="333">333</li>
               </ul>
             </div>
-          </div>
-
-          <div class="questions__form">
-            <form action="">
-              <input type="text" name="" id="" placeholder="Имя" />
-              <input type="email" name="" id="" placeholder="Почта" />
-              <div class="select">
-                <input class="input" type="number" placeholder="Выберите номер" />
-                <ul class="items">
-                  <li data-item="971">
-                    (971) 
-                    <img src="images/United-Arab-Emirates.png" alt="" />
-                  </li>
-                  <li data-item="222">222</li>
-                  <li data-item="333">333</li>
-                </ul>
-              </div>
-              <button class="footer__btn" type="submit">Оставить заявку</button>
-            </form>
-          </div>
+            <button class="footer__btn" type="submit">Оставить заявку</button>
+          </form>
+        </div>
       </section>
     </main>
 
@@ -748,11 +749,9 @@
       </nav>
 
       <div class="footer__info">
-        <p>Dubai, Single Business Tower 1503, Business Bay
-        </p>
+        <p>Dubai, Single Business Tower 1503, Business Bay</p>
         <a href="">Sales@innoma.vc</a>
       </div>
-
     </footer>
 
     <script src="js/burger-menu.js"></script>
@@ -761,5 +760,6 @@
     <script src="js/swiper.js"></script>
     <script src="js/select.js"></script>
     <script src="js/change-theme.js"></script>
+    <script src="js/change-lang.js"></script>
   </body>
 </html>
